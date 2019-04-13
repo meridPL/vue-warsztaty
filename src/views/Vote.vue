@@ -1,7 +1,7 @@
 <template>
-  <div class="about">
+  <div class="vote">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="About"/>
+    <HelloWorld msg="Vote"/>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'about',
+  name: 'vote',
   components: {
     HelloWorld
   }
